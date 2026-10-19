@@ -1,0 +1,12 @@
+COUTFIT V5 — Atualização funcional
+
+Inclui: botão voltar SVG corrigido; grupo Pernas e catálogo combinado; marcação visual de exercício concluído; ranking semanal de grupos musculares com base nas séries efetivamente marcadas.
+
+1. Extraia este ZIP em uma pasta nova.
+2. No terminal dessa pasta, execute: python -m http.server 8000
+3. Abra http://localhost:8000/coutfit/ (se executou na pasta que contém coutfit) ou http://localhost:8000/ (se executou dentro de coutfit).
+4. Confira COUTFIT · V5 no rodapé.
+
+A mesma chave localStorage coutfit-v1 é preservada. Para manter dados existentes, use o mesmo navegador, origem e porta de acesso. Faça backup do navegador antes de limpar dados do site.
+
+Ranking: semana local de segunda a domingo; cada série marcada conta 1 para o grupo do exercício, incluindo grupos personalizados. Cardio não entra no ranking. Registros novos guardam o grupo no momento da conclusão; registros antigos são identificados por seus exercícios nas planilhas existentes quando possível. Empates são exibidos.
